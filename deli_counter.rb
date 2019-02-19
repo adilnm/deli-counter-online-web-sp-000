@@ -9,6 +9,6 @@ def line(customers)
       new_cus.push("#{new_cus.size+1}. #{customer}")
   
     end
-    puts ""
+    puts "The line is currently: #{new_cus.join}"
   end
 end
