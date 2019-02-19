@@ -12,3 +12,5 @@ def line(customers)
     puts "The line is currently: #{new_cus.join(" ")}"
   end
 end
+
+def 
