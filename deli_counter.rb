@@ -13,9 +13,9 @@ def line(customers)
   end
 end
 
-def take_a_number(array,name)
-  array.push(name)
+def take_a_number(customers,name)
+  customers.push(name)
   puts "Welcome, #{name}. You are number #{array.size} in line."
 end
 
-def 
+def now_serving
