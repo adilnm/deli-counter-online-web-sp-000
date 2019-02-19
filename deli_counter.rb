@@ -13,4 +13,6 @@ def line(customers)
   end
 end
 
-def 
+def take_a_number(array,name)
+  puts 
+end
