@@ -9,6 +9,6 @@ def line(customers)
       new_cus.push("#{new_cus.size+1}. #{customer}")
   
     end
-    puts new_cus
+    puts ""
   end
 end
