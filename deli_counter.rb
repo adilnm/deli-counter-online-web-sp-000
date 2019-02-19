@@ -18,5 +18,7 @@ def take_a_number(customers,name)
   puts "Welcome, #{name}. You are number #{customers.size} in line."
 end
 
-def now_serving
+def now_serving(customers)
+  if(customers.size==0)
+    puts
 end
