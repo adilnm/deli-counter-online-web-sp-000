@@ -7,5 +7,6 @@ def line(customers)
     new_cus=[]
     customers.each do |customer|
       new_cus.push("#{new_cus.size+1}. #{customer}")
+    end
   end
 end
