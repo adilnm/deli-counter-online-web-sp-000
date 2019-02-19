@@ -21,9 +21,10 @@ end
 def now_serving(customers)
   if(customers.size==0)
     puts "There is nobody waiting to be served!"
-  end
+  
   
 else
   puts "Now serving #{customers[0]}"
   customers.shift
+end
 end
