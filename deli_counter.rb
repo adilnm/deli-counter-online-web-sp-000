@@ -6,6 +6,6 @@ def line(customers)
   else
     new_cus=[]
     customers.each do |customer|
-      new_cus.push("#{new_cus.size+1}."#{customer})
+      new_cus.push("#{new_cus.size+1}. #{customer}")
   end
 end
