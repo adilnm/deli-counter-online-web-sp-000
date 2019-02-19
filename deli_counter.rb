@@ -24,7 +24,7 @@ def now_serving(customers)
   
   
 else
-  puts "Now serving #{customers[0]}"
+  puts "Currently serving #{customers[0]}"
   customers.shift
 end
 end
